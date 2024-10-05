@@ -1,0 +1,21 @@
+nav {
+    background-color: #0C6EFD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    width: 100% ;
+    max-width: none;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav a:hover {
+    color: lightgray;
+    font-size: larger;
+}
+h1 {
+    padding: 2rem 0 0.5rem;
+    border-bottom: 1px solid slategray
+}
