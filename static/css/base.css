@@ -19,3 +19,22 @@ h1 {
     padding: 2rem 0 0.5rem;
     border-bottom: 1px solid slategray
 }
+.add-cart {
+    margin: 5px 0;
+}
+.cart {
+    display: flex;
+    justify-content: space-between;
+}
+.cart-price {
+    margin: 0;
+}
+.cart-total {
+    margin: 0;
+    border: 1px slategray solid;
+    padding: 5px;
+    width: fit-content;
+}
+.cart-total-box {
+    width: fit-content;
+}
