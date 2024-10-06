@@ -1,6 +1,6 @@
 # Overview
 
-"My Everythings!!!" is a simple, e-commerce web-app made with the Django framework. It can be deployed locally through a test server. Simply:
+"My Everythings!!!" is a simple, e-commerce web-app made with the Django framework. The items on the site are not for sale, and shipping/payment information is for demo purposes only. No charges are made and no product will be shipped to you at the completion of the checkout product. It can be deployed locally through a test server. Simply:
 1) Download the files to your IDE of choice. Make sure python and pip are installed.
 2) Open a terminal and type: source venv/bin/activate
 3) To install Django, type: python3 -m pip install Django
@@ -15,11 +15,11 @@ My purpose for writing this software is to expirament with website-writing using
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
+On each page, there is a navigation bar displayed at the top that allows the user to view their cart or continue shopping. The starting page is a gallery of random products to browse. The items were chosen at random from my house for demonstration purposes only. By clicking the "Read More" button, a new view opens where the user can see a detailed description of the product, and a larger view of the image. On both the gallery view and the detailed view there is a button that says "Add to Cart." Click and it will take the user to their cart, showing the product just added, the price, the quantity of items added, and the option to remove the item(s). The cart view shows the total cost and also has a button that takes the user to the checkout view. Here, the user is prompted to fill out their shipping and payment information, then given the option to place the order or continue shopping. When the "order" is placed, the user is redirected to a page that displays a message indicating that the order was placed.
 
 # Development Environment
 
-This software was developed in VSCode and the local test server that ran in my web browser. 
+This software was developed in VSCode and the local test server that ran in my web browser. I also was able to use the admin site to upload images and make changes to the items displayed on my page.
 
 It was written in Python3 using the Django framework, collaborating with html and css. It makes use of libraries like admin, AppConfig, forms, models, urls, shortcuts, and more.
 
