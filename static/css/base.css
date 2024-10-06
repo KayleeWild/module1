@@ -35,6 +35,9 @@ h1 {
     padding: 5px;
     width: fit-content;
 }
+.cart-box {
+    width: fit-content;
+}
 .cart-total-box {
     width: fit-content;
 }

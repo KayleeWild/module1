@@ -10,10 +10,10 @@
                 <img src="{{ item.image.url }}" width="100%" alt="product image">
             {% endif %}
         </div> -->
-        <div class="col-md-8">
+        <div class="col-md-8 cart-box">
             <h5>{{ item.item.title}} ({{ item.quantity }})</h5>
             <p class="cart-price">Price: ${{ item.item.price }}</p>
-            <a href="{% url 'remove_from_cart' item.pk %}">Remove from cart</a>
+            <a class="btn btn-secondary add-cart" href="{% url 'remove_from_cart' item.pk %}">Remove from cart</a>
         </div>
         <br>
         {% empty %}  
@@ -22,7 +22,9 @@
     </div>
     <div class="col-md-4 cart-total-box">
         <p class="cart-total">Total Price: ${{ total_price }}</p>
-        <a class="btn btn-info add-cart" href="{% url 'item_index' %}">Continue Shopping</a>
+        <a class="btn btn-secondary add-cart" href="{% url 'item_index' %}">Continue Shopping</a>
+        <br>
+        <a class="btn btn-info add-cart" href="{% url 'checkout' %}">Checkout</a>
     </div>
 </div>
 {% endblock %}
