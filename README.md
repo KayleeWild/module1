@@ -9,9 +9,7 @@
 
 My purpose for writing this software is to expirament with website-writing using Django. It implements many Django features, including models, views, forms, and more. The majority is written in python, with a few accompanying files written in html or css. This project taught me how to learn a new framework from online resources, and opened my mind to new ways to accomplish a task.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+["My Everythings!!!" Demo Video](https://youtu.be/XNnkEUoTpy0)
 
 # Web Pages
 
