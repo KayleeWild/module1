@@ -28,7 +28,6 @@ It was written in Python3 using the Django framework, collaborating with html an
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
 * Add more detailed CSS- To leverage the most of Django, I used bootstrap to style the pages. However, there were some things I didn't like about the stylesheet, so I added my own to supplement. In the future, I will need to either do more research on bootstrap or make my own stylesheet more robust.
 * Create user sign-in page- Allowing users to create profiles will increase security and usability. Saving card and shipping information to each profile will accelerate the checkout process. 
 * Connecting to cloud server- Currently the site can only be accessed on a local machine. Free sites like GitHub Pages won't deploy the site because of the server-based framework Django offers. Connecting it to 3rd-party cloud services sould allow the site to be connected to the web and accessed at any time. 
